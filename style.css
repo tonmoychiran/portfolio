@@ -1,0 +1,276 @@
+div {
+
+    margin: 50px 100px;
+}
+
+#proImg {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+#intro {
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+#intro>span {
+    font-size: 50px;
+}
+
+.socials {
+
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 20px;
+
+
+}
+
+.boldSmallerText {
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.technologies {
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+
+
+
+.git {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.projectDemoPic{
+    padding: 5px;
+    border: 0.5px;
+    border-color: black;
+    border-style: solid;
+    width: 700px;
+    
+}
+
+.card{
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px #888888;
+    padding:5px;
+}
+
+.projectName{
+    color: rgb(14, 7, 54);
+}
+
+
+
+
+@media (max-width:480px)
+{
+    div {
+
+        margin: 5px 5px;
+    }
+   
+    #proImg {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 80px;
+    }
+    
+    #intro {
+        font-size: 50px;
+        font-weight: bold;
+    
+    }
+    
+    #intro>span {
+        font-size: 30px;
+    }
+    
+    .socials {
+    
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .text {
+        font-size: 20px;
+    
+    
+    }
+    
+    .boldSmallerText {
+    
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    
+    .technologies {
+        width: 60px;
+        height: 60px;
+        margin: 0px 10px;
+    }
+    
+    
+    
+    
+    .git {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    
+    .projectDemoPic{
+        padding: 5px;
+        border: 0.5px;
+        border-color: black;
+        border-style: solid;
+        width: 150px;
+        
+    }
+    
+    .card{
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 5px 5px #888888;
+        padding:5px;
+    }
+    
+    .projectName{
+        color: rgb(14, 7, 54);
+    }
+
+}
+
+
+@media(max-width:768px)
+{
+    div {
+
+        margin: 5px 5px;
+    }
+    #proImg {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 60px;
+    }
+    
+    #intro {
+        font-size: 50px;
+        font-weight: bold;
+    
+    }
+    
+    #intro>span {
+        font-size: 30px;
+    }
+    
+    .socials {
+    
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .text {
+        font-size: 20px;
+    
+    
+    }
+    
+    .boldSmallerText {
+    
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    #projectstext{
+        margin:20px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    
+    .technologies {
+        width: 60px;
+        height: 60px;
+        margin: 0px 10px;
+    }
+    
+    
+    
+    
+    .git {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    
+    .projectDemoPic{
+        padding: 5px;
+        border: 0.5px;
+        border-color: black;
+        border-style: solid;
+        width: 300px;
+        
+    }
+    
+    .card{
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 5px 5px #888888;
+        padding:5px;
+    }
+    
+    .projectName{
+        color: rgb(14, 7, 54);
+    }
+
+}
+
+@media(max-width:1080px)
+{
+    div{
+        margin: 50px 50px;
+    }
+}
